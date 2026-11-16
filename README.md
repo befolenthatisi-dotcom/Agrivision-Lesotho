@@ -1,83 +1,25 @@
-# Getting Started with Create React App
+# Agrivision Lesotho
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Agrivision is a digital platform designed to support vegetable producers in Lesotho.
 
-## Available Scripts
+## Main Features
 
-In the project directory, you can run:
+- Weather information and alerts for vegetable producers.
+- Vegetable market prices and price alerts.
+- User registration and login using Firebase Authentication.
+- Learning resources and success stories.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Firebase Authentication
+- Firebase Firestore
+- CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Purpose
 
-### `npm test`
+To help vegetable producers make informed farming and marketing decisions through accessible weather and market price information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Developer
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Authentication and role permissions
-
-Authentication is not connected in this prototype. The profile menu is informational only, public account registration and login are unavailable, and administrator actions are not exposed. The demo UI must not be treated as an access-control boundary or deployed as a secured service.
-
-The agreed role-provisioning policy for the future backend is:
-
-- **Producer:** public registration assigns this role on the trusted server. Users cannot choose or change their role.
-- **Community Leader:** an Administrator creates an invitation. The invite is single-use, time-limited, and assigns the Community Leader role server-side when accepted.
-- **Administrator:** the first Administrator is created by a secure backend setup process, never by public registration. Setup must stop allowing initial provisioning after that account is created.
-- **All roles:** passwords are handled by a trusted authentication provider and never stored in plaintext. Role checks and administrative operations must be enforced by the backend/database. Administrators can deactivate accounts and revoke access.
-
-Choose and configure a trusted backend before implementing registration, invitations, login, account deactivation, or protected management tools. A client-side role selector or UI-only check is not authorization.
+Agrivision Lesotho Project Team
